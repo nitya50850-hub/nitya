@@ -78,7 +78,7 @@ export default function ShippingPolicy() {
           </p>
           <p>
             If you do not receive a tracking notification within 48 hours of placing your order, please write to us at{' '}
-            <a href="mailto:support@clotheshub.in" style={{ color: 'var(--accent)' }}>support@clotheshub.in</a> quoting your Order ID (format: CH-XXXXXX).
+            <a href="mailto:support@storefashion.in" style={{ color: 'var(--accent)' }}>support@storefashion.in</a> quoting your Order ID (format: SF-XXXXXX).
           </p>
         </div>
 

@@ -62,7 +62,7 @@ export default function RefundPolicy() {
           <h2>4. How to Initiate a Return</h2>
           <ol style={{ paddingLeft: '20px', lineHeight: '1.8' }}>
             <li>
-              <strong>Submit Request:</strong> Email our support concierge at <a href="mailto:support@clotheshub.in" style={{ color: 'var(--accent)' }}>support@clotheshub.in</a> or visit our <Link to="/contact" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Contact Us</Link> page. Mention your <strong>Order ID (e.g. CH-XXXXXX)</strong>, the item(s) you wish to return, and the reason (sizing, defect, or preference).
+              <strong>Submit Request:</strong> Email our support concierge at <a href="mailto:support@storefashion.in" style={{ color: 'var(--accent)' }}>support@storefashion.in</a> or visit our <Link to="/contact" style={{ color: 'var(--accent)', textDecoration: 'underline' }}>Contact Us</Link> page. Mention your <strong>Order ID (e.g. SF-XXXXXX)</strong>, the item(s) you wish to return, and the reason (sizing, defect, or preference).
             </li>
             <li>
               <strong>Doorstep Reverse Pickup:</strong> Our team will schedule an insured reverse courier pickup from your delivery address within 24–48 hours at no additional hassle to you.

@@ -201,7 +201,7 @@ export default function Contact() {
           </div>
         </div>
 
-        {/* Embedded Google Maps Placeholder Showing Delhi Location */}
+        {/* Embedded Google Maps Showing Bhind, Madhya Pradesh Location */}
         <div style={{ marginBottom: '60px' }}>
           <div style={{ marginBottom: '16px' }}>
             <span className="section-label">Atelier Location</span>
