@@ -4,6 +4,7 @@ import products, { categories } from '../data/products';
 import ProductCard from '../components/ProductCard';
 import QuickViewModal from '../components/QuickViewModal';
 import heroImg from '../assets/hero-shirt.png';
+import heroOutfit from '../assets/hero-outfit.jpg';
 
 export default function Home() {
   const [quickViewProduct, setQuickViewProduct] = useState(null);
@@ -64,16 +65,16 @@ export default function Home() {
 
         <div className="hero-image" style={{ position: 'relative' }}>
           <img
-            src="https://images.unsplash.com/photo-1617137984095-74e4e5e3613f?w=1000&h=1200&fit=crop&q=85"
+            src={heroOutfit}
             alt="Store Fashion Bespoke Menswear Collection"
             loading="eager"
-            onError={(e) => {
-              e.target.src = heroImg;
-            }}
             style={{
               borderRadius: 'var(--radius-xl)',
               border: '1px solid rgba(209, 173, 102, 0.25)',
-              boxShadow: '0 25px 60px rgba(0, 0, 0, 0.7)'
+              boxShadow: '0 25px 60px rgba(0, 0, 0, 0.7)',
+              width: '100%',
+              maxHeight: '580px',
+              objectFit: 'cover'
             }}
           />
 
